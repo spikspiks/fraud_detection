@@ -28,9 +28,9 @@ if __name__=='__main__':
     st.markdown("----")
     st.markdown("""
                 **Performance Metrics**  \n
-                - Recall score of 0.82 (model accurately predicts 82\% of frauds )  \n
-                - ROC-AUC score of 0.897  \n
-                - The False Positive Rate is 0.18, i.e. 18\% of non-fraudulent transactions are flagged as fraud.
+                - Recall score of **0.82** (model accurately predicts 82\% of frauds )  \n
+                - ROC-AUC score of **0.897**  \n
+                - The False Positive Rate is **0.18**, i.e. 18\% of non-fraudulent transactions are flagged as fraud.
                 """)
     st.markdown("""This model has mediocre performance - there is a lot of scope of improvement to reduce the errors in prediction for both classes.""")
     st.markdown("----")
